@@ -6,3 +6,6 @@ This patch fixes (Sound, Crashes, Animations, Ragdolls, Graphics Optionally)
 
 # Ragdolls & Animations
 **Limit the game to 60FPS or Near**, ZombiU Was never meant to run above 60FPS Which breaks ragdolls and animations. It is required to play the game at 60FPS or Near for best Ragdolls & Animations in game.
+
+# How to Limit Game FPS
+https://www.howtogeek.com/509097/how-to-set-a-maximum-frame-rate-in-nvidias-drivers/
