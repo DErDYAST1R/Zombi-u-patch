@@ -1,0 +1,131 @@
+07:23:18:727 [14620] | INFO  | Initializing crosire's ReShade version '6.5.0.2002' (32-bit) loaded from 'E:\SteamLibrary\steamapps\common\ZOMBI\d3d9.dll' into 'E:\SteamLibrary\steamapps\common\ZOMBI\ZOMBI.exe' (0x8ED9EA00) ...
+07:23:18:753 [14620] | INFO  | Registering hooks for 'user32.dll' ...
+07:23:18:839 [14620] | INFO  | > Libraries loaded.
+07:23:18:840 [14620] | INFO  | > Found 21 match(es). Installing ...
+07:23:18:868 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\dinput.dll' ...
+07:23:18:870 [14620] | INFO  | > Delayed.
+07:23:18:870 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\dinput8.dll' ...
+07:23:18:871 [14620] | INFO  | > Libraries loaded.
+07:23:18:871 [14620] | INFO  | > Found 2 match(es). Installing ...
+07:23:18:897 [14620] | INFO  | Registering hooks for 'ws2_32.dll' ...
+07:23:18:918 [14620] | INFO  | > Libraries loaded.
+07:23:18:918 [14620] | INFO  | > Found 8 match(es). Installing ...
+07:23:18:944 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\d2d1.dll' ...
+07:23:18:952 [14620] | INFO  | > Delayed.
+07:23:18:952 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\d3d9.dll' ...
+07:23:18:952 [14620] | INFO  | > Delayed until first call to an exported function.
+07:23:18:952 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\d3d10.dll' ...
+07:23:18:953 [14620] | INFO  | > Delayed.
+07:23:18:953 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\d3d10_1.dll' ...
+07:23:18:954 [14620] | INFO  | > Delayed.
+07:23:18:954 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\d3d11.dll' ...
+07:23:18:954 [14620] | INFO  | > Delayed.
+07:23:18:954 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\d3d12.dll' ...
+07:23:18:954 [14620] | INFO  | > Delayed.
+07:23:18:955 [14620] | INFO  | Registering hooks for 'C:\Windows\system32\dxgi.dll' ...
+07:23:18:955 [14620] | INFO  | > Delayed.
+07:23:18:955 [14620] | INFO  | Registering hooks for 'openvr_api.dll' ...
+07:23:18:956 [14620] | INFO  | > Delayed.
+07:23:18:956 [14620] | INFO  | Initialized.
+07:23:19:028 [14620] | INFO  | Redirecting DirectInput8Create(hinst = 00400000, dwVersion = 800, riidltf = {BF798030-483A-4DA2-AA99-5D64ED369700}, ppvOut = 0019FE98, pUnkOuter = 00000000) ...
+07:23:19:028 [11492] | INFO  | Redirecting RegisterClassA(lpWndClass = 053EFEB0 { "HiddenClass", style = 0 }) ...
+07:23:19:105 [14620] | INFO  | Redirecting IDirectInput8A::CreateDevice(this = 00FB150C, rguid = {6F1D2B61-D5A0-11CF-BFC7-444553540000}, lplpDirectInputDevice = 001D0010, pUnkOuter = 00000000) ...
+07:23:19:108 [14620] | INFO  | Redirecting DirectInput8Create(hinst = 00400000, dwVersion = 800, riidltf = {BF798030-483A-4DA2-AA99-5D64ED369700}, ppvOut = 0019FE94, pUnkOuter = 00000000) ...
+07:23:19:109 [14620] | INFO  | Redirecting IDirectInput8A::CreateDevice(this = 00FB10D4, rguid = {6F1D2B60-D5A0-11CF-BFC7-444553540000}, lplpDirectInputDevice = 001D0068, pUnkOuter = 00000000) ...
+07:23:19:109 [14620] | INFO  | Redirecting DirectInput8Create(hinst = 00400000, dwVersion = 800, riidltf = {BF798030-483A-4DA2-AA99-5D64ED369700}, ppvOut = 0019FEE4, pUnkOuter = 00000000) ...
+07:23:19:113 [14620] | INFO  | Redirecting RegisterClassA(lpWndClass = 0019AC9C { "LyN", style = 0 }) ...
+07:23:19:117 [14620] | INFO  | Installing export hooks for 'C:\Windows\system32\d3d9.dll' ...
+07:23:19:117 [14620] | INFO  | > Found 11 match(es). Installing ...
+07:23:19:118 [14620] | INFO  | Redirecting Direct3DCreate9(SDKVersion = 0x20) ...
+07:23:19:321 [14620] | INFO  | Redirecting Direct3DCreate9(SDKVersion = 0x20) ...
+07:23:19:443 [14620] | INFO  | Redirecting IDirect3D9::CreateDevice(this = 03147420, Adapter = 0, DeviceType = 1, hFocusWindow = 00743118, BehaviorFlags = 0x54, pPresentationParameters = 02ED4A28, ppReturnedDeviceInterface = 02ED4A20) ...
+07:23:19:444 [14620] | INFO  | Searching for add-ons (*.addon, *.addon32) in 'E:\SteamLibrary\steamapps\common\ZOMBI' ...
+07:23:19:444 [14620] | INFO  | Dumping presentation parameters:
+07:23:19:444 [14620] | INFO  |   +-----------------------------------------+-----------------------------------------+
+07:23:19:445 [14620] | INFO  |   | Parameter                               | Value                                   |
+07:23:19:445 [14620] | INFO  |   +-----------------------------------------+-----------------------------------------+
+07:23:19:445 [14620] | INFO  |   | BackBufferWidth                         | 1920                                    |
+07:23:19:446 [14620] | INFO  |   | BackBufferHeight                        | 1080                                    |
+07:23:19:446 [14620] | INFO  |   | BackBufferFormat                        | D3DFMT_X8R8G8B8                         |
+07:23:19:446 [14620] | INFO  |   | BackBufferCount                         | 2                                       |
+07:23:19:447 [14620] | INFO  |   | MultiSampleType                         | 0                                       |
+07:23:19:447 [14620] | INFO  |   | MultiSampleQuality                      | 0                                       |
+07:23:19:447 [14620] | INFO  |   | SwapEffect                              | 2                                       |
+07:23:19:447 [14620] | INFO  |   | DeviceWindow                            | 00743118                                |
+07:23:19:448 [14620] | INFO  |   | Windowed                                | FALSE                                   |
+07:23:19:448 [14620] | INFO  |   | EnableAutoDepthStencil                  | FALSE                                   |
+07:23:19:448 [14620] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
+07:23:19:449 [14620] | INFO  |   | Flags                                   | 0                                       |
+07:23:19:449 [14620] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+07:23:19:449 [14620] | INFO  |   | PresentationInterval                    | 0x80000000                              |
+07:23:19:449 [14620] | INFO  |   +-----------------------------------------+-----------------------------------------+
+07:23:19:670 [14620] | INFO  | Running on NVIDIA GeForce RTX 4060 Driver 576.52.
+07:23:19:880 [14620] | INFO  | Recreated runtime environment on runtime 0EE2D5D8 ('E:\SteamLibrary\steamapps\common\ZOMBI\ReShade.ini').
+07:23:20:012 [  456] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\SweetFX\FilmGrain.fx' in 0.001000 s.
+07:23:20:012 [17144] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\DisplayDepth.fx' in 0.002000 s.
+07:23:20:017 [16368] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Bloom.fx' in 0.007000 s.
+07:23:20:017 [ 2012] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\qUINT\qUINT_bloom.fx' in 0.004000 s.
+07:23:20:034 [  456] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\UIMask.fx' in 0.001000 s.
+07:23:20:034 [16368] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Daltonize.fx' in 0.000000 s.
+07:23:20:034 [17144] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\LUT.fx' in 0.001000 s.
+07:23:20:036 [16368] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Deband.fx' in 0.001000 s.
+07:23:20:037 [ 2012] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\qUINT\qUINT_dof.fx' in 0.004000 s.
+07:23:20:039 [ 2012] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\SweetFX\ChromaticAberration.fx' in 0.000000 s.
+07:23:20:078 [14620] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 0019AB84 { "SteamWinsockInitFakeClass_1", style = 0 }) ...
+07:23:25:792 [14436] | INFO  | Resizing image data for texture 'V__texDirt' from 1024x576 to 1920x1080.
+07:24:42:692 [14620] | INFO  | Redirecting IDirect3DDevice9::Reset(this = 0EE2CB30, pPresentationParameters = 0019AE24) ...
+07:24:42:976 [14620] | INFO  | Dumping presentation parameters:
+07:24:42:976 [14620] | INFO  |   +-----------------------------------------+-----------------------------------------+
+07:24:42:977 [14620] | INFO  |   | Parameter                               | Value                                   |
+07:24:42:977 [14620] | INFO  |   +-----------------------------------------+-----------------------------------------+
+07:24:42:977 [14620] | INFO  |   | BackBufferWidth                         | 1920                                    |
+07:24:42:978 [14620] | INFO  |   | BackBufferHeight                        | 1080                                    |
+07:24:42:978 [14620] | INFO  |   | BackBufferFormat                        | D3DFMT_X8R8G8B8                         |
+07:24:42:978 [14620] | INFO  |   | BackBufferCount                         | 2                                       |
+07:24:42:978 [14620] | INFO  |   | MultiSampleType                         | 0                                       |
+07:24:42:979 [14620] | INFO  |   | MultiSampleQuality                      | 0                                       |
+07:24:42:979 [14620] | INFO  |   | SwapEffect                              | 2                                       |
+07:24:42:979 [14620] | INFO  |   | DeviceWindow                            | 00743118                                |
+07:24:42:979 [14620] | INFO  |   | Windowed                                | FALSE                                   |
+07:24:42:980 [14620] | INFO  |   | EnableAutoDepthStencil                  | FALSE                                   |
+07:24:42:980 [14620] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
+07:24:42:980 [14620] | INFO  |   | Flags                                   | 0                                       |
+07:24:42:980 [14620] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+07:24:42:981 [14620] | INFO  |   | PresentationInterval                    | 0x80000000                              |
+07:24:42:981 [14620] | INFO  |   +-----------------------------------------+-----------------------------------------+
+07:24:42:982 [14620] | INFO  | Destroyed runtime environment on runtime 0EE2D5D8 ('E:\SteamLibrary\steamapps\common\ZOMBI\ReShade.ini').
+07:24:43:440 [14620] | INFO  | Recreated runtime environment on runtime 0EE2D5D8 ('E:\SteamLibrary\steamapps\common\ZOMBI\ReShade.ini').
+07:24:43:491 [17148] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\SweetFX\FilmGrain.fx' in 0.001000 s.
+07:24:43:491 [17060] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\DisplayDepth.fx' in 0.002000 s.
+07:24:43:493 [17148] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\UIMask.fx' in 0.001000 s.
+07:24:43:493 [17060] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\LUT.fx' in 0.001000 s.
+07:24:43:495 [16668] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\qUINT\qUINT_bloom.fx' in 0.005000 s.
+07:24:43:495 [ 3008] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Bloom.fx' in 0.006000 s.
+07:24:43:497 [ 3008] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Daltonize.fx' in 0.001000 s.
+07:24:43:500 [ 3008] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Deband.fx' in 0.002000 s.
+07:24:43:502 [16668] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\qUINT\qUINT_dof.fx' in 0.006000 s.
+07:24:43:503 [16668] | INFO  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\SweetFX\ChromaticAberration.fx' in 0.001000 s.
+07:24:43:562 [14436] | INFO  | Resizing image data for texture 'V__texDirt' from 1024x576 to 1920x1080.
+07:25:56:195 [14436] | WARN  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Bloom.fx' in 0.820000 s with warnings:
+E:\SteamLibrary\steamapps\common\ZOMBI\Shader@0x138E8020(120,16-54): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+
+07:25:56:274 [14436] | INFO  | Resizing image data for texture 'V__texDirt' from 1024x576 to 1920x1080.
+07:26:01:884 [14436] | WARN  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Bloom.fx' in 0.831000 s with warnings:
+E:\SteamLibrary\steamapps\common\ZOMBI\Shader@0x138E8020(120,16-54): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+
+07:26:01:956 [14436] | INFO  | Resizing image data for texture 'V__texDirt' from 1024x576 to 1920x1080.
+07:26:03:800 [14436] | WARN  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Bloom.fx' in 0.846000 s with warnings:
+E:\SteamLibrary\steamapps\common\ZOMBI\Shader@0x138E8020(120,16-54): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+
+07:26:03:877 [14436] | INFO  | Resizing image data for texture 'V__texDirt' from 1024x576 to 1920x1080.
+07:26:05:957 [14436] | WARN  | Successfully compiled 'E:\SteamLibrary\steamapps\common\ZOMBI\reshade-shaders\Shaders\Bloom.fx' in 0.978000 s with warnings:
+E:\SteamLibrary\steamapps\common\ZOMBI\Shader@0x138E8020(200,19-62): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+E:\SteamLibrary\steamapps\common\ZOMBI\Shader@0x138E8020(120,16-54): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+
+07:26:06:030 [14436] | INFO  | Resizing image data for texture 'V__texDirt' from 1024x576 to 1920x1080.
+07:29:46:936 [14436] | ERROR | Source 'UIMask.png' for texture 'V__UIMask__MaskTex' was not found in any of the texture search paths!
+07:36:15:766 [14620] | INFO  | Destroyed runtime environment on runtime 0EE2D5D8 ('E:\SteamLibrary\steamapps\common\ZOMBI\ReShade.ini').
+07:36:15:815 [14620] | WARN  | Reference count for IDirect3DDevice9 object 0EE2CB30 (0ED3B860) is inconsistent (1265).
+07:36:16:391 [14620] | INFO  | Exiting ...
+07:36:16:397 [14620] | INFO  | Uninstalling 50 hook(s) ...
+07:36:17:424 [14620] | INFO  | Finished exiting.
