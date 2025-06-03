@@ -17,4 +17,5 @@ You can download and install my custom DS4Windows profile and install it to eith
 
 # How to Limit Game FPS
 https://www.howtogeek.com/509097/how-to-set-a-maximum-frame-rate-in-nvidias-drivers/
+
 ** -> How to Control Max Frame Rate for Specific Games**
